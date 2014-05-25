@@ -1,0 +1,9 @@
+This is the wedding page template that includes blog-style news, location information, present wish list and nice title page.
+
+Installation instructions:
+
+1) Install Worpress
+2) Create new folder under "Themes" folder
+3) paste the content of this repo to the creared folder
+4) In the wordpres admin cockpit select this theme as the desired theme
+
