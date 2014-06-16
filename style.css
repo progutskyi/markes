@@ -1,0 +1,59 @@
+/*
+ My palete http://colorschemedesigner.com/#0011Trrscw0w0
+*/
+
+ .jumbotron-override {
+ 	
+ 	background-image: url('images/mainphoto.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	padding-top: 150px;
+ 	height: 550px;
+ }
+ 
+ .footer {
+	background-color: lightgrey;
+	 
+ }
+ 
+ .jumbotron h1 {
+ 	font-size: 46px;
+ }
+ 
+ .simtable {
+	display: table; 
+ }
+ 
+ .cell {
+	display:table-cell;
+	vertical-align:middle; 
+ }
+
+ .red {
+ 	background-color: #E12020;	
+}
+
+ .darkred {
+ 	background-color: #920A0A;	
+}
+
+ .darkred2 {
+ 	background-color: #A83C3C;	
+}
+
+ .lighred {
+ 	background-color: #F05656;	
+}
+
+ .lighred2 {
+ 	background-color: #F07F7F;	
+}
+
+ .white {
+	color: white;
+}
+
+ small.lighter
+ {
+	color:#DEDEDE; 
+ }
