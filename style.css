@@ -7,10 +7,39 @@
  	background-image: url('images/mainphoto.jpg');
  	background-repeat: no-repeat;
  	background-size: cover;
- 	padding-top: 150px;
  	height: 800px;
  	padding-top: 100px;
  }
+ 
+ .navbar-override {
+ 	background-color: white;
+ 	border-width: 0px;
+ 	margin-bottom: 0px;
+ }
+ 
+ .navbar-default .navbar-nav > li > a 
+  {
+  	 color: #A83C3C;	 
+  }
+  
+  .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus
+  {
+  	 color: #920A0A;	 
+  }
+  
+  .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{
+	color: #920A0A;
+	background-color: #FFF3F3;
+}
+  
+  .navbar-default .navbar-brand
+  {
+  		color: #A83C3C;
+  }
+  
+  .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
+		color:#920A0A;
+	}
  
  .footer {
 	background-color: lightgrey;
