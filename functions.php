@@ -9,7 +9,15 @@ function get_blog_page_url() {
 		return $posts_page_url;
 		
 	}
+	
 	return bloginfo('url');
+}
+
+function get_page_link_by_title($title) {
+	
+	$page = get_page_by_title($title);
+	
+	return get_page_uri( $page->ID );	
 }
 	
 ?>

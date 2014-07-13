@@ -1,79 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brudleyp</title>
-    
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-     
-     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />    
-  </head>
-  
-  <body>
-	
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-			<ul class="nav navbar-nav">
-        		<li><a href="<?php echo get_blog_page_url(); ?>">Aktualnosci</a></li>
-        		<li><a href="#">Lokacja</a></li>
-        		<li><a href="#">Sugerowana Lista Prezentow</a></li>
-        </ul>
-		</div>
-	</nav>  
+<?php get_header(); ?>
   
 	<div class="jumbotron jumbotron-override white">
 		<div class="container">
-			<div class="center-block">
-				<h1>Welcome to our awesome wedding! <br><small class="lighter">We love each other so much</small></h1>
-			</div>
+			<h1>Witamy na Brudleyp<br><small class="lighter">Ślubnej stronie Marty i Kostka</small></h1>
 		</div>			
 	</div>
 	
 	<div class="container">
 		<div class="row page-header">
 			<div class="col-lg-6">
-				<h2>Wanna read the latest news about our wedding?<br>
-				<small>Then you should go here!</small></h2>
-				<a href="<?php echo get_blog_page_url(); ?>" class="btn btn-danger bnt-lg">Aktualnosci</a>
+				<h2>Aktualności<br>
+				<small>Najnowsze informacje, które warto znać</small></h2>
+				<a href="<?php echo get_blog_page_url(); ?>" class="btn btn-danger bnt-lg">Zobacz</a>
 			</div>
 			
 			<div class="col-lg-6">
-				<img src="http://placehold.it/400x400" alt="" class="img-responsive img-circle pull-right">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/news.jpg" alt="" width="400" height="400" class="img-responsive img-circle pull-right">
 			</div>
 		</div>
 	
 		<div class="row page-header">
 			<div class="col-lg-6">
-				<img src="http://placehold.it/400x400" alt="" class="img-responsive img-circle">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/location.jpg" width="400" height="400" alt="" class="img-responsive img-circle">
 			</div>
 			
 			<div class="col-lg-6">
-				<h2>Wanna know how to get to the place?<br>
-				<small>Click here!</small></h2>
-				<a href="#" class="btn btn-danger bnt-lg">Lokacja</a>
+				<h2>Lokalizacja<br>
+				<small>Dla każdego kto jeszcze w Promnicach nie był</small></h2>
+				<a href="#" class="btn btn-danger bnt-lg">Zobacz</a>
 			</div>
 		</div>
 		
 		<div class="row">
 			<div class="col-lg-6">
-				<h2>Wann make us awesome  present?<br>
-				<small>Just hit this!</small></h2>
-				<a href="#" class="btn btn-danger bnt-lg">Prezenty</a>
+				<h2>Lista prezentów<br>
+				<small>gdy nie wiadomo co podarować Młodym</small></h2>
+				<a href="#" class="btn btn-danger bnt-lg">Zobacz</a>
 			</div>		
 		
 			<div class="col-lg-6">
-				<img src="http://placehold.it/400x400" alt="" class="img-responsive img-circle pull-right">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/presents2.jpg" alt="" class="img-responsive img-circle pull-right">
 			</div>
 		</div>
 	</div>
 	
-	<div class="container-fluid footer">
-		<p class="text-centered">Designed by Petro Rogutskyi</p>
-	</div>
-	
-  </body>
-</html>
+<?php get_footer(); ?>

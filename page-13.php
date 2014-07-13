@@ -2,7 +2,7 @@
 
 	<div class="jumbotron white bg-darkred2">
 		<div class="container">
-			<h1>Aktualnosci. Read the latest news!</h1>
+			<h1>Location. Get some directions here</h1>
 		</div>
 	</div>
 	
@@ -11,7 +11,7 @@
 			<div class="col-md-8">
 			
  				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			   <div class="page-header"><h1 style="color:#F05656"><?php the_title(); ?></h1></div>
+			   
    			<?php the_content(); ?>
 
  				<?php endwhile; else: ?>

@@ -8,7 +8,8 @@
  	background-repeat: no-repeat;
  	background-size: cover;
  	padding-top: 150px;
- 	height: 550px;
+ 	height: 800px;
+ 	padding-top: 100px;
  }
  
  .footer {
@@ -29,24 +30,44 @@
 	vertical-align:middle; 
  }
 
- .red {
+ .bg-red {
  	background-color: #E12020;	
 }
 
- .darkred {
+ .bg-darkred {
  	background-color: #920A0A;	
 }
 
- .darkred2 {
+ .bg-darkred2 {
  	background-color: #A83C3C;	
 }
 
- .lighred {
+ .bg-lightred {
  	background-color: #F05656;	
 }
 
- .lighred2 {
+ .bg-lightred2 {
  	background-color: #F07F7F;	
+}
+
+ .red {
+ 	color: #E12020;	
+}
+
+ .darkred {
+ 	color: #920A0A;	
+}
+
+ .darkred2 {
+ 	color: #A83C3C;	
+}
+
+ .lightred {
+ 	color: #F05656;	
+}
+
+ .lightred2 {
+ 	color: #F07F7F;	
 }
 
  .white {
