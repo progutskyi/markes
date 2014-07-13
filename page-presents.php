@@ -2,11 +2,11 @@
 
 	<div class="jumbotron white bg-darkred2">
 		<div class="container">
-			<h1>Presents</h1>
+			<h1>Lista prezentów. <br><small class="white">Gdy nie wiadomo co podarować Młodym</small></small></h1>
 		</div>
 	</div>
 	
-	<div class="container">
+	<div class="container"> 
 		<div class="row">
 			<div class="col-md-8">
 			

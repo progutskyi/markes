@@ -2,7 +2,8 @@
 
 	<div class="jumbotron white bg-darkred2">
 		<div class="container">
-			<h1>Aktualnosci. Read the latest news!</h1>
+			<h1>Aktualności<br>
+			<small class="white">Najnowsze informacje, które warto znać</small></h1>
 		</div>
 	</div>
 	

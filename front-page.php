@@ -27,15 +27,15 @@
 			<div class="col-lg-6">
 				<h2>Lokalizacja<br>
 				<small>Dla każdego kto jeszcze w Promnicach nie był</small></h2>
-				<a href="#" class="btn btn-danger bnt-lg">Zobacz</a>
+				<a href="<?php echo get_page_link_by_title('directions') ?>" class="btn btn-danger bnt-lg">Zobacz</a>
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row last">
 			<div class="col-lg-6">
 				<h2>Lista prezentów<br>
-				<small>gdy nie wiadomo co podarować Młodym</small></h2>
-				<a href="#" class="btn btn-danger bnt-lg">Zobacz</a>
+				<small>Gdy nie wiadomo co podarować Młodym</small></h2>
+				<a href="<?php echo get_page_link_by_title('presents') ?>" class="btn btn-danger bnt-lg">Zobacz</a>
 			</div>		
 		
 			<div class="col-lg-6">

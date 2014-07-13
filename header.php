@@ -33,9 +33,9 @@
 
     <div class="collapse navbar-collapse" id="links">
       <ul class="nav navbar-nav">
-        		<li><a href="<?php echo get_blog_page_url(); ?>">Aktualnosci</a></li>
-        		<li><a href="<?php echo get_page_link_by_title('directions') ?>">Lokacja</a></li>
-        		<li><a href="<?php echo get_page_link_by_title('presents') ?>">Sugerowana Lista Prezentow</a></li>
+        		<li><a href="<?php echo get_blog_page_url(); ?>">Aktualności</a></li>
+        		<li><a href="<?php echo get_page_link_by_title('directions') ?>">Lokalizacja</a></li>
+        		<li><a href="<?php echo get_page_link_by_title('presents') ?>">Lista prezentów</a></li>
         </ul>
       
     </div>

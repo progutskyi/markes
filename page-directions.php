@@ -2,7 +2,8 @@
 
 	<div class="jumbotron white bg-darkred2">
 		<div class="container">
-			<h1>Location. Get some directions here</h1>
+			<h1>Lokalizacja<br>
+			<small class="white">Dla każdego kto jeszcze w Promnicach nie był</small></h1>
 		</div>
 	</div>
 	

@@ -1,6 +1,6 @@
 	
-	<div class="container-fluid footer" style="margin-top: 20px">
-		<p class="text-centered">Designed by Petro Rogutskyi</p>
+	<div class="container footer">
+		<p><small>Designed by Petro Rogutskyi</small></p>
 	</div>
 	
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

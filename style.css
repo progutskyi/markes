@@ -40,10 +40,25 @@
   .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
 		color:#920A0A;
 	}
+	
+	.row.page-header 
+	{
+		padding-bottom: 80px;
+	}
+	
+	.row.last
+	{
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
  
  .footer {
-	background-color: lightgrey;
-	 
+ 	margin-bottom: 30px;
+ 	margin-top: 50px;
+ 	border-top-color: #EEE;
+ 	border-top-width: 1px;
+ 	border-top-style: solid;
+ 	padding-top: 20px;	 
  }
  
  .jumbotron h1 {
@@ -90,7 +105,7 @@
  .darkred2 {
  	color: #A83C3C;	
 }
-
+20
  .lightred {
  	color: #F05656;	
 }
